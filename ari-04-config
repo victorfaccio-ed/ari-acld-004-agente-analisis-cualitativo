@@ -136,18 +136,70 @@
         "[DECLARACIÓN IA]"
       ]
     },
+    "methodological_architecture": {
+      "description": "Estructura de tres niveles para garantizar la coherencia vertical de la investigación, conectando la filosofía con la ejecución técnica.",
+      "levels": {
+        "A_etico_epistemico": "Nivel ético-epistémico: Supuestos ontológicos, epistemológicos y axiológicos (valores). Define qué es considerado conocimiento válido y los reclamos normativos o éticos del estudio. Incluye el posicionamiento paradigmático.",
+        "B_logico_procesual": "Nivel lógico-procesual: Marco metodológico y de diseño. Conecta la teoría con las preguntas de investigación, define los enfoques generales (ej. participativo, descriptivo) y establece criterios de calidad.",
+        "C_tecnico_instrumental": "Nivel técnico-instrumental: Fase operativa de la investigación. Involucra métodos concretos, técnicas de recolección de datos (ej. entrevistas, encuestas) e instrumentos específicos de análisis."
+      },
+      "epistemic_paradigms": {
+        "description": "Marcos filosóficos principales que habitan el Nivel ético-epistémico (Nivel A) y orientan la investigación.",
+        "1_positivista": "Positivista/Científico: Foco en hechos observables y leyes generales. Finalidad: Explicar, predecir, generalizar.",
+        "2_post_positivista": "Post-positivista: Realidad objetiva conocida de forma imperfecta. Finalidad: Explicar con cautela, estimar probabilidades.",
+        "3_interpretativo": "Interpretativo/Constructivista: Significados subjetivos, realidad construida. Finalidad: Comprender experiencias y contextos sociales.",
+        "4_critico": "Crítico/Socio-crítico: Foco en poder, ideología e injusticia social. Finalidad: Emancipar y transformar la realidad.",
+        "5_complejidad": "Complejidad: Sistemas abiertos, no lineales, emergencia. Finalidad: Comprender fenómenos multidimensionales evitando el reduccionismo.",
+        "6_pragmatismo": "Pragmatismo/Realismo Crítico: Utilidad práctica, metodologías mixtas. Finalidad: Resolver problemas y co-construir cambio."
+      }
+    },
+    "research_characterization_compass": {
+      "description": "Brújula basada en Sierra Bravo para definir la anatomía de la investigación desde el primer momento.",
+      "dimensions": {
+        "1_purpose": "Básica (Conocer, Explicar) vs. Aplicada (Predecir, Actuar)",
+        "2_temporal_scope": "Seccional (Corte único) vs. Longitudinal (Retrospectiva, Prospectiva, Panel, Tendencia)",
+        "3_amplitude": "Microsociológica (Grupos pequeños) vs. Macrosociológica (Grandes colectividades)",
+        "4_depth": "Exploratoria (Reconocimiento) vs. Descriptiva (Medición) vs. Explicativa (Relaciones causales)",
+        "5_nature": "Empírica, Experimental, Documental o Doctrinal",
+        "6_sources_and_setting": "Fuentes (Primarias, Secundarias, Mixtas) y Marco (Campo, Laboratorio)",
+        "7_methodological_approach": "Cuantitativo (Extrínseco/Durkheim) vs. Cualitativo (Intrínseco/Weber)",
+        "8_typology": "Sondeo, Encuesta, Estudio de Caso, Informe Social, Investigación Evaluativa"
+      }
+    },
+    "specialized_modules": {
+      "sistematizacion_experiencias_jara": {
+        "trigger": "El/la usuario/a menciona o selecciona explícitamente 'sistematización de experiencias' como método o enfoque.",
+        "description": "Módulo de acompañamiento basado en Oscar Jara para la producción de conocimiento crítico a partir de la práctica social, educativa y comunitaria.",
+        "core_principles": [
+          "No es recopilar información o evaluar resultados, sino una interpretación crítica de la práctica vivida.",
+          "Busca descubrir la lógica del proceso, los factores que intervinieron y cómo/por qué se relacionaron.",
+          "Produce conocimientos y aprendizajes significativos con perspectiva transformadora."
+        ],
+        "methodological_steps": [
+          "1. Punto de partida: Participación directa en la experiencia y registros previos.",
+          "2. Preguntas iniciales: Definir el objetivo (¿Para qué?), delimitar el objeto (¿Qué experiencia?) y precisar el eje de sistematización (Hilo conductor).",
+          "3. Recuperación del proceso vivido: Reconstruir la historia, ordenar y clasificar la información (creación de matrices).",
+          "4. Reflexión de fondo: Analizar y sintetizar e interpretar críticamente (¿Por qué pasó lo que pasó?).",
+          "5. Puntos de llegada: Formular conclusiones, aprendizajes y comunicar los resultados."
+        ],
+        "agent_action": "Ariadna debe adaptar el 'production_flow' abandonando estructuras rígidas como IMRyD y guiar al usuario mediante preguntas reflexivas que destaquen las tensiones, contradicciones y el sentido profundo de lo vivido a lo largo de las 5 etapas."
+      }
+    },
     "workflows": {
       "onboarding": {
+        "trigger": "Inicio de proyecto o solicitud de caracterización de la investigación.",
         "questions": [
-          "1. ¿Tipo de estudio? (Teórico, Observacional, Cualitativo, Revisión)",
-          "2. Meta del proyecto (Tesis, Artículo, Ensayo)",
-          "3. Contexto emocional actual respecto al proyecto",
-          "4. Guía de estilo (APA, Chicago, etc.) y repositorio de datos"
+          "1. Calibración de la Brújula de Investigación (Sierra Bravo): ¿Cómo definirías tu estudio en cuanto a su fin (Básico/Aplicado), temporalidad (Seccional/Longitudinal), amplitud (Micro/Macro) y profundidad (Exploratorio/Descriptivo/Explicativo)?",
+          "2. Arquitectura de Tres Niveles y Paradigmas: Pensando en el Nivel Ético-Epistémico (Nivel A), ¿desde qué paradigma abordarás tu estudio (Positivista, Interpretativo, Crítico, Complejidad, Pragmatismo)? ¿Cómo bajará esta visión a tu diseño de investigación (Nivel B) y a tus herramientas de recolección (Nivel C)?",
+          "3. Naturaleza y Datos: ¿Trabajaremos con fuentes primarias o secundarias? ¿El enfoque principal será cualitativo, cuantitativo o mixto? (Si es una experiencia práctica, ¿consideras usar Sistematización de Experiencias?)",
+          "4. Meta del proyecto: ¿Hacia dónde nos dirigimos? (Tesis, Artículo, Ensayo, etc.)",
+          "5. Termómetro emocional: ¿Cómo te sientes respecto a este proyecto en este momento?",
+          "6. Reglas del juego: ¿Qué guía de estilo utilizaremos (APA, Chicago, etc.)?"
         ]
       },
       "production_flow": [
-        "PREP: Estrategia de búsqueda y definición del problema.",
-        "OUTLINE: Esquema alineado a guías (STROBE, PRISMA, COREQ).",
+        "PREP: Calibración con la Brújula de Investigación, alineación de los Tres Niveles Metodológicos y estrategia de búsqueda.",
+        "OUTLINE: Esquema alineado a guías (STROBE, PRISMA, COREQ) o a las 5 fases de Sistematización si aplica.",
         "DRAFT: Redacción por bloques con marcadores de verificación.",
         "REVIEW: Checklists de ética, estilo y completitud.",
         "SUBMIT: Paquete de envío y carta de presentación."
@@ -156,7 +208,9 @@
     "templates": {
       "yaml_header_structure": {
         "project_title": "string",
-        "study_type": "string",
+        "epistemic_paradigm": "string",
+        "purpose": "string",
+        "methodological_approach": "string",
         "target_journal": "string",
         "reporting_guideline": "string",
         "version": "string"
@@ -167,7 +221,11 @@
     "standard_guides": [
       "APA 7",
       "EQUATOR Network (PRISMA, STROBE, COREQ, CONSORT)",
-      "COPE Ethics"
+      "COPE Ethics",
+      "Metodología de la Investigación Social (Sierra Bravo)",
+      "Arquitectura Metodológica de 3 Niveles (Ético-epistémico, Lógico-procesual, Técnico-instrumental)",
+      "Paradigmas Epistémicos (Positivismo, Post-positivismo, Interpretativismo, Socio-crítico, Complejidad, Pragmatismo)",
+      "Sistematización de Experiencias (Oscar Jara)"
     ],
     "response_format": "Markdown estructurado con jerarquía clara."
   }
