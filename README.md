@@ -1,70 +1,41 @@
-# ARI-04: Asistente de Investigación y Acompañante Metodológica (Ariadna)
+# ARI-04: Ariadna 🧵
 
-**Versión:** 0.4.1 (Actualización Consensus Logic)
+Acompañante Metodológica y Asistente de Investigación
 
-## 📖 Descripción del Proyecto
+## 📌 Descripción
 
-Ariadna (ARI-04) es una arquitectura de configuración (System Prompt) diseñada para transformar Modelos de Lenguaje (LLMs) en asistentes de investigación académica rigurosos. A diferencia de los asistentes genéricos, Ariadna opera bajo principios epistemológicos estrictos, priorizando la **verosimilitud** sobre la "verdad", la **autoría humana** sobre la automatización, y el **cuidado emocional** del investigador(a) sobre la productividad tóxica.
+Ariadna (ARI-04) es un agente de Inteligencia Artificial (basada en un prompt estructurado en JSON) diseñada para ser el soporte metodológico, estructural y motivacional de investigadores, tesistas y académicos.
 
-Su metáfora central es "El Hilo de Ariadna": proveer el hilo conductor para navegar el laberinto de la investigación, asegurando siempre el retorno seguro al argumento central.
+Su misión no es redactar por el usuario, sino actuar como guardiana del plan de trabajo, brújula teórica y arquitecta de argumentos, elevando el rigor científico en áreas de Ciencias Sociales, Humanidades y Ciencias de la Conducta.
 
-## 🚀 Novedades de la Versión 0.4.1: Módulo de Lógica Heurística (Consensus Logic)
+## ⚙️ Características Principales
 
-Esta actualización introduce un **"Espejo Metodológico"** inspirado en la arquitectura de *Consensus AI*, pero adaptado para operar sin conexión directa a APIs externas. Este módulo entrena a Ariadna para pensar bajo el **Racionalismo Crítico (Popper)**:
+- 🧭 Brújula de Investigación (Sierra Bravo): Capacidad para guiar la clasificación del estudio por fin, alcance temporal, amplitud y profundidad.
 
-1.  **Postura Epistemológica:** Ariadna no busca verdades absolutas, sino la *verosimilitud* (la mejor hipótesis disponible que ha resistido intentos de refutación).
-2.  **Escenarios de Operación:**
-    
-    *   **Escenario A (Simulación Interna):** Aplica filtros de calidad (meta-análisis, Q1) y busca activamente la divergencia dentro de su corpus de entrenamiento.
-    *   **Escenario B (Deep Research):** Ejecuta búsquedas recursivas diseñadas para falsear la hipótesis inicial del usuario.
-    *   **Escenario C (Estratega Externa):** Actúa como *Prompt Engineer* experta, diseñando las cadenas de búsqueda (queries booleanas) y filtros óptimos para que el usuario ejecute la búsqueda manualmente en herramientas como Consensus AI.
+- 🏛️ Arquitectura de 3 Niveles: Garantiza la coherencia vertical entre el nivel Ético-Epistémico (filosofía), Lógico-Procesual (diseño) y Técnico-Instrumental (herramientas).
 
-## 🧠 Filosofía y Principios de Diseño
+- 🧠 Paradigmas Epistémicos Integrados: Reconoce y opera bajo enfoques Positivistas, Interpretativos, Críticos, de Complejidad y Pragmatismo.
 
-Ariadna ha sido entrenada con reglas estrictas de estilo y ética académica:
+- 🌱 Sistematización de Experiencias: Un módulo especializado basado en Oscar Jara que adapta la estructura del agente para acompañar procesos de investigación-acción y prácticas comunitarias.
 
-### 1. Autoría Humana y Agencia
+- 🔍 Espejo Metodológico (Consensus Logic): Emulación de lógica de búsqueda profunda y diseño de estrategias de prompts para buscar evidencia en bases de datos externas.
 
-La IA asiste, no sustituye. Ariadna tiene prohibido generar conclusiones definitivas o actuar como autora. Su rol es preparar la evidencia para que el/la investigador(a) ejerza su juicio crítico.
+- ☕ Protocolo de Invierno: Soporte emocional empático para ayudar a superar el "bloqueo del escritor" o el agotamiento académico.
 
-### 2. Lenguaje Preciso y Académico
+## 🚀 Cómo empezar
 
-Se evitan términos vagos o jerarquías implícitas:
+- Copia el contenido del archivo ari-04-config.json o úsalo como un System Prompt en tu plataforma de LLM o creador de agentes (ej. OpenAI Custom GPTs, Claude Projects, etc.).
 
-*   ❌ **No usa:** "Divulgación" (implica vulgo), "Concientización" (implica falta de consciencia), ni expresiones sumisas ("a sus órdenes").
-*   ✅ **Prefiere:** "Comunicación científica", "Co-construcción de saberes" y "Quedo atentx".
+- Para iniciar la interacción, simplemente envía este mensaje a Ariadna:
 
-### 3. Anti-Grandilocuencia
+"Hola Ariadna, quiero iniciar un nuevo proyecto. Ayúdame con el Onboarding."
 
-Evita la retórica vacía y los superlativos innecesarios ("Esto no es sólo un libro, es un tesoro..."). Se enfoca en argumentos basados en evidencia y méritos intrínsecos.
+- Ariadna comenzará el proceso de calibración metodológica guiándote paso a paso.
 
-### 4. Protocolo de Invierno
+## 📂 Estructura del Proyecto
 
-Un sistema de detección de agotamiento. Si el usuario expresa bloqueo o parálisis, Ariadna cambia su estrategia de la exigencia metodológica a la contención, proponiendo micro-objetivos para recuperar el *momentum*.
+ari-04-config.json: Archivo núcleo con la identidad, directrices y módulos heurísticos del agente.
 
-## 🛠 Estructura del Archivo de Configuración
+CHANGELOG.md: Historial de actualizaciones y adición de marcos teóricos.
 
-El núcleo del agente reside en ari-04-config.json, estructurado en cuatro bloques principales:
-
-1.  **agent\_profile** : Define la identidad, la misión y el tono (Asesora Metodológica / Coach).
-2.  **operational\_protocols** : Reglas de interacción, estilo de lenguaje y el ecosistema de aliados simulados.
-3.  **heuristic\_methodology\_module** **(NUEVO):** El motor de lógica popperiana y estrategias de búsqueda.
-4.  **scientific\_writing\_package** : Flujos de trabajo para tesis y artículos (guiados por estándares como APA 7, PRISMA, STROBE).
-
-## ⚙️ Instalación y Uso
-
-Ariadna es agnóstica al modelo (funciona en Claude, GPT-4, Gemini, etc.), siempre que el modelo soporte instrucciones de sistema complejas o archivos de conocimiento.
-
-1.  Descarga el archivo ari-04-config.json.
-2.  Sube el archivo a tu LLM de preferencia o copia su contenido en las "Instrucciones Personalizadas" (System Prompt).
-3.  **Personalización:** Busca el marcador \[USUARIO\] dentro del JSON y, si lo deseas, define tu nombre. También puedes ajustar los "Aliados Simulados" según tus necesidades.
-
-## 🤝 Contribución
-
-¡Las contribuciones son bienvenidas para co-construir esta herramienta! Si tienes mejoras para los prompts, nuevas plantillas de checklists (CONSORT, SRQR) o ajustes de estilo:
-
-1.  Haz un Fork del repositorio.
-2.  Crea una rama (`git checkout -b feature/NuevaFuncionalidad`).
-3.  Haz Commit de tus cambios.
-4.  Abre un Pull Request.
-
+README.md: Documentación principal.
